@@ -1,0 +1,6 @@
+<ul>
+    <li ng-repeat="todo in $ctrl.todos">
+        <todo item="todo" on-change="$ctrl.onComplete($locals);" on-remove="$ctrl.onDelete($locals);">
+        </todo>
+    </li>
+</ul>
